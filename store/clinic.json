@@ -1,0 +1,19 @@
+{
+  "clinics": [
+    {
+      "id": "5f96a023fy",
+      "name": "Osloklinikken",
+      "city": "Oslo"
+    },
+    {
+      "id": "e0bo0qidig",
+      "name": "Askerklinikken",
+      "city": "Asker"
+    },
+    {
+      "id": "9e29f7yen0",
+      "name": "Grønlandsklinikken",
+      "city": "Oslo"
+    }
+  ]
+}
