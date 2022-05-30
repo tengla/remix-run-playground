@@ -9,11 +9,27 @@
   h2 {
     @apply text-xl underline;
   }
+  h3 {
+    @apply text-lg underline;
+  }
 }
 
 @layer components {
   .btn-blue {
     @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded;
+  }
+  .btn-blue.small {
+    @apply my-1 px-2 py-1;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 10pt;
+  }
+  .badge {
+    @apply text-xs font-semibold mr-2 px-2.5 py-0.5 rounded;
+    display: inline-block;
+  }
+  .badge.indigo {
+    @apply bg-indigo-100 text-indigo-800 dark:bg-indigo-200 dark:text-indigo-900
   }
   a.btn-blue {
     @apply my-1 px-2 py-1;
@@ -26,6 +42,9 @@
   }
   ul.link-list li {
     @apply mr-2
+  }
+  .items {
+    @apply pt-2
   }
 }
 
